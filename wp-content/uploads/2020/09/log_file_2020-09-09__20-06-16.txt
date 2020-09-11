@@ -1,0 +1,20 @@
+
+---Downloaded files---
+The import files for: Demo Import 4 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://192.168.64.2
+Data file = /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/centotheme/cento/demo-import/import-files/demo-4/demo-4.xml
+Widget file = not defined!
+Customizer file = /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/centotheme/cento/demo-import/import-files/demo-4/demo-4.dat
+Redux files:
+not defined!
+
+---pt-ocdi/before_content_import---
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

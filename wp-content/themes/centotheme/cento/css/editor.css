@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*!
+ * Cento Theme  v2.x.x (https://jakson.co)
+ * Copyright 2018 https://jakson.co)
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+
+
+body {
+	font-family: 'Open Sans';
+}
+
+
+
+body a {
+	color: #777777 !important;
+}
+
+
+body.wp-autoresize {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+

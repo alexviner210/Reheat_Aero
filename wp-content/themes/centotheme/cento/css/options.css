@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/*!
+ * Cento Theme  v2.x.x (https://jakson.co)
+ * Copyright 2018 https://jakson.co)
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+.appearance_page_cento-theme #wpcontent, .appearance_page_cento-them #wpfooter{
+	background: #ffffff;
+}
+
+
+.appearance_page_cento-theme  {
+		
+	font-family: 'Open Sans';
+	color: #666666 !important;
+
+}
+
+
+
+.cento-options h1 {
+	font-size: 32px;
+	line-height: 36px;
+	margin: 20px 0;
+	letter-spacing: -1px;
+}
+
+
+
+.cento-options h1, .cento-options h2, .cento-options h3, .cento-options h4, .cento-options h5, .cento-options h6 {
+	font-family: 'Open Sans';
+	color: #666666;
+}
+
+
+.cento-options h2 {
+	font-size: 24px;
+	padding: 0;
+	margin: 0 0 24px 0;
+	line-height: 30px;
+}
+
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.cento-options p, .cento-options body {
+	font-size: 16px;
+	line-height: 22px;
+	font-family: roboto;
+}
+
+/* .cento-options {width: 100%;} */
+
+.cento-admin-row {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 0 0 40px 0;
+    float: left;
+    content: none;
+    width: 100%;
+}
+
+.cento-admin-row-3 {
+/* 	background: #ffffff; */
+	width: 30%;
+	min-height: 100px;
+	float: left;
+	padding: 0 10px 0 0;
+	margin: 0 0 20px 0;
+}
+
+
+@media only screen and (max-width: 856px) {
+	
+	.cento-admin-row-3 {
+		width: 100%;
+
+		}
+		
+	.cento-admin-row {
+	    width: 95%;
+	    }	
+		
+		
+	}
+
+
+.cento-admin-row-content {
+	padding-left: 26px;
+}
+
+.cento-options-button {
+	color: #292b2c;
+	background-color: #fff;
+	border-color: #cccccc !important;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.25;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid;
+	padding: .5rem .7rem;
+	font-size: 1rem;
+	border-radius: .25rem;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+
+@media only screen and (max-width: 456px)
+.cento-options-button {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+
+.cento-options-button:hover {
+	color: #292b2c;
+	background-color: #e6e6e6;
+	border-color: #adadad;
+}
+
+
+
+.cento-admin-page {margin-right: 320px;}
+
+
+
+.cento-admin-left {
+    width: auto;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+
+.cento-admin-right {
+	width: 300px;
+	margin-right: -300px;
+    float: left;
+    min-height: 300px;
+    margin-top: 40px;
+
+}
+
+
+@media (max-width: 1000px) {
+
+		.cento-admin-left {
+		    width: 100%;
+		    float: left;
+		    padding-right: 0;
+		    margin-right: 0;
+		}
+
+		.cento-admin-right {
+		    width: 100%;
+		    float: left;
+		    min-height: 300px;
+		    margin: 0;
+		}
+		
+		.cento-admin-page {
+			margin-right: 20px;
+
+		}
+		
+		
+		.cento-admin-row {
+		   width: 95%;
+		}	
+
+}
+
+
+.cento-admin-right-box {
+	padding: 0px 20px;
+	border-left: 1px solid #DFDFDF;
+}
+
+
+.cento-admin-right-box  ul {
+	list-style: inherit;
+	padding-left: 22px;
+}
+
+
+.cento-admin-right-box h3 {
+	font-size: 28px;
+	line-height: 34px;
+	padding: 0;
+	margin: 0;
+	color: #666666;
+}
+
+
+
+.cento-admin-form .form-table th {
+	width: 120px;
+
+}
+
+.cento-admin-form form {
+	float: left;
+}
+
+.cento-admin-form {
+	float: left;
+	padding: 20px;
+	border: 1px solid #dddddd;
+}

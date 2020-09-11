@@ -1,0 +1,44 @@
+/*
+Theme Name: CENTO
+Theme URI: http://jakson.co/cento/
+Author: Team Jakson
+Author URI: http://jakson.co/
+
+
+Description: This is a "Hybrid" of the Understrap Theme by Holger Könemann and is an awesome Combination of Automattic´s _s theme and Bootstrap 4.  This Cento Version has built on the concept, greatly extending the "Theming" capabilities and allows the creation of new websites very quickly.  Based around the inclusion of some choice plugins from the WordPress Plugin Directory that are automaically installed as part of the "Theme Set Up", and which also includes "One Click Demo Template Insalls" to create entire sites in seconds, ready for you easily customize into your uniquiqe design with Elementor Page Builder used to deliver content through the entire site - Pages, Posts, Headers, Footers, Sidebars and Menus - YAY!.
+
+Version: 2.1.54
+License: centotheme WordPress Theme, Copyright 2017-2019 Jakson
+centotheme is distributed under the terms of the GNU GPL version 2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: centotheme
+
+
+This theme, like WordPress, is licensed under the GPL.
+centotheme is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+
+Resource Licenses:
+Understrap Theme by Holger Könemann: https://understrap.com/ | GNU GPL version 2
+Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT, documentation under CC BY 3.0.)
+Anywhere Elementor: https://wordpress.org/plugins/anywhere-elementor/
+Elementor: https://wordpress.org/plugins/elementor/
+Full Screen Search: https://wordpress.org/plugins/full-screen-search-overlay/
+Kirki Toolkit: https://wordpress.org/plugins/kirki/
+Menu Icons by ThemeIsle: https://wordpress.org/plugins/menu-icons/
+myStickymenu: https://wordpress.org/plugins/mystickymenu/
+One Click Demo Import: https://wordpress.org/plugins/one-click-demo-import/
+Owl Carousel 2: http://www.owlcarousel.owlgraphic.com/ | https://github.com/smashingboxes/OwlCarousel2/blob/develop/LICENSE (Code licensed under MIT)
+and of course
+jQuery: https://jquery.org | (Code licensed under MIT)
+WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
+*/
+
+/*
+This file is just used to identify the theme in WordPress.
+The compiled CSS output can be found in /css/theme.css
+The SASS sources for it can be found in /sass/
+The dependencies can be found in /src/ after running "gulp copy-assets" terminal command
+
+...and now go out and play!
+*/

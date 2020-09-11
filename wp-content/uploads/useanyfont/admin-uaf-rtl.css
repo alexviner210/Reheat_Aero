@@ -1,0 +1,11 @@
+				@font-face {
+					font-family: 'gravity-light';
+					src: url('/wp-content/uploads/useanyfont/5075Gravity-Light.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/5075Gravity-Light.woff') format('woff');
+				}
+
+				.gravity-light{font-family: 'gravity-light' !important;}
+
+				.et_gf_gravity-light{background:none !important;font-family:gravity-light;text-indent:0 !important;font-size:25px;}
+
+		

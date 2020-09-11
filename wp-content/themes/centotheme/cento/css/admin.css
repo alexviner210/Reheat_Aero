@@ -1,0 +1,614 @@
+@charset "UTF-8";
+/*!
+ * Cento Theme  v2.1.54 (https://jakson.co)
+ * Copyright 2018 https://jakson.co)
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+
+
+
+/* ------ Cento DashBaord Widget -------- */
+
+
+#cento_dashboard_widget h2 {
+	font-weight: 700;
+}
+
+#cento_dashboard_widget .inside {
+    margin-top: 8px;
+}
+
+.cento-dash-head {
+    height: 36px;
+}
+
+
+
+.cento-dash-welcome {
+    float: left;
+    margin: 10px 10px 0 1px;
+    font-size: 11px;
+}
+
+
+.cento-dash-image {
+    float: left;
+    margin-right: 7px;
+    margin-left: 1px;
+}
+
+
+.cento-dash-welcome-button {
+    float: right;
+    margin-top: 4px;
+}
+
+.cento-dash-welcome-button a.button {
+    line-height: 20px;
+    padding: 3px 7px 2px 8px;
+    box-shadow: none;
+}
+
+.cento-dash-section2 {
+    margin: 14px 0 24px 0;
+}
+
+
+.cento-dash-section2 p {
+    font-size: 13px;
+    margin: 0 0 10px 0;
+}
+
+.cento-dash-news-title {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cento-dash-news-header {
+    font-size: 14px;
+    margin: 14px 0 0px 0;
+    font-weight: 700;
+}
+
+li.cento-dash-news-item {
+    padding-bottom: 10px;
+}
+
+
+
+.cento-dash-welcome-button span.dashicons.dashicons-video-alt3 {
+    color: #555;
+    margin-left: 3px;
+}
+
+.cento-dash-hr {
+    border: 0;
+    background-color: #DFDFDF;
+    height: 1px;
+}
+
+
+
+/*  ----- OCDI 201908 --- */
+
+
+.ocdi__gl-item-container.wp-clearfix.js-ocdi-gl-item-container h3:nth-child(2), .ocdi__gl-item-container.wp-clearfix.js-ocdi-gl-item-container h3:nth-child(3) {
+	display: none;
+}
+
+
+
+p.ocdi__ajax-loader.js-ocdi-ajax-loader {
+    width: 300px;
+    border: 2px solid #dc3232;
+    padding: 6px;
+}
+
+
+
+
+
+/*  ----- Always full width site with left sidebar v2150 --- */
+
+ #left-sidebar .elementor {
+	position: fixed;
+
+}
+
+
+
+
+/*  ---- Plugin install Page Load  */
+
+.appearance_page_pt-one-click-demo-import #TB_window,
+.appearance_page_cento-theme #TB_window {
+    position: fixed;
+/*
+    right: 0;
+    top: 0;
+*/
+    width: 100%;
+    height: 600px;
+    z-index: 100051;
+    background: url(../img/Preloader_10.gif) no-repeat center center #fff;
+}
+
+body.toplevel_page_install_plugin {
+    background: transparent !important;
+}
+
+
+/*
+.appearance_page_cento-theme .tb-close-icon {
+    display: none;
+    }
+*/
+    
+.appearance_page_cento-theme div#TB_overlay {
+    pointer-events: none;
+}
+
+
+/*  ---- End  */
+
+
+
+
+/*  Plugin install Popup CSS */
+
+
+.cento-plug-install-page .cento-plugin-checking {
+    display: none;
+}
+
+.cento-plug-install-page .wrap p {
+    display: none;
+}
+
+
+h3.cento-plugin-success {
+    padding: 0 0 15px 0;
+    margin: 0;
+}
+
+.toplevel_page_install_plugin h2 {
+    margin-top: -50px;
+    line-height: 41px;
+    letter-spacing: -1px;
+}
+
+div#choosetemplate .cento-options-button {
+    background: #32bb32;
+    color: #ffffff;
+    border: none;
+}
+
+
+.evaluate-plugins .wrap {
+    margin: 5px 0 !important;
+}
+
+
+/*  ---- End  */
+
+
+
+
+
+
+
+
+
+.elementor-editor-active #left-sidebar {
+    margin-top: 0 !important;
+}
+
+.elementor-editor-preview {
+    padding-top: 0;
+}
+
+.cento-hover-eee a:hover {
+	color: #eeeeee !important;
+}
+
+
+span.dashicons {
+    text-decoration: none;
+}
+
+
+/* 2019 Styles ----------------------------------*/
+
+
+li#wp-admin-bar-cento-menu .dashicons-star-filled:before {
+    color: #41a9c6;
+ }
+
+
+li#wp-admin-bar-cento-menu .ab-item.ab-empty-item {
+    color: #41a9c6;
+    }
+
+
+
+/* Auto Install Plugin Page */
+
+
+
+	/* Hide Install Menu */
+	li#toplevel_page_install_plugin {
+	    display: none;
+	}
+
+
+body.toplevel_page_install_plugin  {
+    background: #ffffff;		
+}
+
+
+.toplevel_page_install_plugin div#wpfooter {
+    display: none;
+}
+
+
+.toplevel_page_install_plugin #wpcontent {
+    margin: 0 auto 30px auto;
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+    background: #ffffff;
+    font-size: 1 !important;
+}
+
+
+.toplevel_page_install_plugin h2 {
+	font-size: 32px;
+	
+}
+
+
+
+.toplevel_page_install_plugin #wpbody-content{
+	
+	padding-bottom: 0;
+}
+
+
+.toplevel_page_install_plugin body {
+    background: #ffffff;
+}
+
+
+.toplevel_page_install_plugin .cento-plugin-install-button {
+	margin-bottom: 40px;
+}
+
+
+
+.toplevel_page_install_plugin .code {
+    word-wrap: break-word;
+}
+
+
+
+.dashicons.dashicons-arrow-right {
+	font-size: 32px !important;
+	line-height: 20px;
+}
+
+.dashicons.dashicons-arrow-right-alt {
+	padding-left: 3px;
+}
+
+
+
+
+
+.cento-plugin-install-button {
+	margin: 40px 0 0 0;
+}
+
+
+.cento-plugin-success {
+	font-weight: 500;
+	padding-left: 24px;
+}
+
+
+.toplevel_page_install_plugin .dashicons.dashicons-yes {
+	color: green;
+	font-size: 34px;
+	margin-top: -9px;
+}
+
+.toplevel_page_install_plugin .dashicons.dashicons-warning {
+	color: red;
+	font-size: 22px;
+	margin-top: -4px;
+	padding-left: 5px;
+}
+
+.cento-plugin-checking {
+	font-style: italic;
+	margin-bottom: 21px;
+}
+
+
+
+
+
+.toplevel_page_install_plugin div#adminmenumain, .toplevel_page_install_plugin div#wpadminbar {
+    display: none;
+}
+
+
+
+
+
+.cento-plugin-install-functions p {
+	margin: 10px 10px 10px 34px !important;
+	line-height: 1.5;
+	margin: 1em 0;
+}
+
+
+
+
+.toplevel_page_install_plugin h1 {
+    display: none;
+}
+
+.update-messages.lp-show-latest h2 {
+    font-size: 14px;
+}
+
+
+.toplevel_page_install_plugin #wpfooter {
+    margin-left: auto;
+}
+
+
+.cento-plugin-install-content h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 36px;
+	font-weight: 300;
+	letter-spacing: -1px;
+}
+
+
+
+
+
+/* Admin Menu */
+
+#wp-admin-bar-elementor_edit_page .ab-sub-wrapper {
+	display: none !important;
+}
+
+
+
+#wp-admin-bar-cento-menu a.ab-item {color: #ffffff;}
+	
+h3.cento-admin-middle {text-align: center;}
+
+
+.admin-menu-divide {
+	border-bottom: 1px solid #8d8d8d;
+	padding: 0 0 5px 0 !important;
+}
+
+
+.admin-menu-top-padding {
+
+	padding: 5px 0 0 0 !important;
+	font-weight: bold !important;
+}
+
+
+.cento-admin-menu-indent {
+	padding-left: 10px !important;
+}
+
+
+
+#wp-admin-bar-cento-menu .ab-item.ab-empty-item {
+	font-weight: bold !important;
+}
+
+
+
+
+
+
+
+/* Customizer Global  sections*/
+
+
+
+.customize-control-kirki-typography .wrapper {
+	background: #dddddd !important;
+	margin-bottom: 20px !important;
+}
+
+
+
+
+
+
+span.select2-selection__placeholder {
+    font-style: italic;
+    font-size: 11px;
+    color: #d8d8d8 !important;
+    font-weight: 100;
+}
+
+
+#sub-accordion-section-cento_global_parts .customize-control-kirki-custom {
+    margin-bottom: 15px;
+    text-align: right;
+    right: 20px;
+}
+
+#sub-accordion-section-cento_global_parts .customize-control-kirki-select {
+    margin-bottom: 2px;
+}
+
+
+#sub-accordion-section-cento_global_parts .customize-control-title {
+	font-size: 15px;
+	padding-left: 4px !important;
+	margin-bottom: 1px !important;
+}
+
+
+
+.cento-partsdrop {
+	margin: 0 20px 0 0;
+}
+
+
+
+
+.cento-global-input {
+	min-width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**  Demo Import Page **/
+
+
+.ocdi {
+/*     font-family: roboto; */
+    color: #666666;
+}
+
+
+.ocdi h1 {
+/*     font-family: roboto; */
+    letter-spacing: -2px;
+    color: #666666;
+}
+
+
+.ocdi h3 {
+    font-weight: 500;
+    color: #666666;
+}
+
+h4.ocdi__gl-item-title {
+    font-weight: 400;
+}
+
+
+
+
+i.dashicons.dashicons-download {
+    padding: 11px 0px;
+    font-size: 43px;
+}
+
+
+div.ocdi__intro-notice.notice.notice-warning.is-dismissible {display: none !important;}
+
+
+h1.ocdi__title.dashicons-before.dashicons-upload {
+    display: none;
+}
+
+
+
+.appearance_page_cento-theme #setting-error-tgmpa {display: none !important; } 
+
+
+div#menu-icons-sidebar {
+    display: none;
+}
+
+
+.ocdi__gl-item-button.button {
+	text-align: center;
+}
+
+
+
+.appearance_page_pt-one-click-demo-import .notice.notice-info.kirki-telemetry {
+    display: none !important;
+}
+
+
+
+/**  Demo Import Modal Pop Up **/
+
+.ocdi__modal-image-container {
+	min-height: 400px;
+}
+
+
+#js-ocdi-modal-content {
+	padding: 10px;
+}
+
+.ocdi__modal-notice.ocdi__demo-import-notice {
+	margin: 0 !important;
+}
+
+
+.ocdi__modal-item-title {
+    padding: 0 3px;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 5px 0 10px 0;
+}
+
+.appearance_page_pt-one-click-demo-import .ui-dialog-buttonpane {
+	border: 0 !important;
+
+}
+
+.ocdi__modal-notice.ocdi__demo-import-notice {
+	border: none !important;
+	padding: 10px 18px;
+	font-size: 14px !important;
+	line-height: 18px !important;
+}
+
+
+/**  End Demo Import Modal Pop Up **/
+
+
+
+
+
+/* Hide the Kirki Notice to save user confusion on theme set up */
+.notice.notice-info.kirki-telemetry {
+    display: none;
+}
+
+
+
+#wp-admin-bar-cento-menu a.ab-item {color: #ffffff;}
+	
+h3.cento-admin-middle {text-align: center;}
+
+
+/*  Hide Ele Pack Nag */
+
+div#element-pack-notice-id-license-issue {
+    display: none !important;
+    }
