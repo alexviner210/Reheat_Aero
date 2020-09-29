@@ -1,4 +1,4 @@
-/*! elementor - v3.0.8.1 - 14-09-2020 */
+/*! elementor - v3.0.10 - 23-09-2020 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -12614,10 +12614,6 @@ module.exports = elementorModules.ViewModule.extend({
   onElementorDocumentLoaded: function onElementorDocumentLoaded() {
     this.updateStylesheet();
     this.addPanelPage();
-
-    if (!elementor.userCan('design')) {
-      $e.route('panel/page-settings/settings');
-    }
   },
   destroy: function destroy() {
     this.unbindEvents();
@@ -16863,8 +16859,7 @@ var EditorBase = /*#__PURE__*/function (_Marionette$Applicati) {
         el: document.$element[0],
         model: elementor.elementsModel
       });
-      preview.$el.empty();
-      preview.resetChildViewContainer(); // In order to force rendering of children
+      preview.$el.empty(); // In order to force rendering of children
 
       preview.isRendered = true;
 
@@ -17730,10 +17725,7 @@ var _default = /*#__PURE__*/function (_ControlBaseDataView) {
           $inputWrapper = jQuery('<div>', {
         class: 'e-global__confirm-input-wrapper'
       }),
-          $colorPreview = jQuery('<div>', {
-        class: 'e-global__color-preview',
-        style: 'background-color: ' + currentValue
-      }),
+          $colorPreview = this.createColorPreviewBox(currentValue),
           $input = jQuery('<input>', {
         type: 'text',
         name: 'global-name',
@@ -17773,10 +17765,7 @@ var _default = /*#__PURE__*/function (_ControlBaseDataView) {
         class: 'e-global__preview-item e-global__color',
         'data-global-id': globalData.id
       }),
-          $colorPreview = jQuery('<div>', {
-        class: 'e-global__color-preview',
-        style: 'background-color: ' + globalData.value
-      }),
+          $colorPreview = this.createColorPreviewBox(globalData.value),
           $colorTitle = jQuery('<span>', {
         class: 'e-global__color-title'
       }).html(globalData.title),
@@ -17785,6 +17774,22 @@ var _default = /*#__PURE__*/function (_ControlBaseDataView) {
       }).html(globalData.value);
       $color.append($colorPreview, $colorTitle, $colorHex);
       return $color;
+    }
+  }, {
+    key: "createColorPreviewBox",
+    value: function createColorPreviewBox(color) {
+      var $colorPreviewContainer = jQuery('<div>', {
+        class: 'e-global__color-preview-container'
+      }),
+          $colorPreviewColor = jQuery('<div>', {
+        class: 'e-global__color-preview-color',
+        style: 'background-color: ' + color
+      }),
+          $colorPreviewBg = jQuery('<div>', {
+        class: 'e-global__color-preview-transparent-bg'
+      });
+      $colorPreviewContainer.append($colorPreviewBg, $colorPreviewColor);
+      return $colorPreviewContainer;
     }
   }, {
     key: "getGlobalsList",
@@ -27815,23 +27820,13 @@ var _helper = _interopRequireDefault(__webpack_require__(215));
 var BaseSectionsContainerView = __webpack_require__(528);
 
 var Preview = BaseSectionsContainerView.extend({
+  initialize: function initialize() {
+    this.$childViewContainer = jQuery('<div>', {
+      class: 'elementor-section-wrap'
+    });
+    BaseSectionsContainerView.prototype.initialize.apply(this, arguments);
+  },
   getChildViewContainer: function getChildViewContainer() {
-    if (!this.$childViewContainer) {
-      this.$childViewContainer = jQuery('<div>', {
-        class: 'elementor-section-wrap'
-      });
-
-      if (elementor.config.legacyMode.elementWrappers) {
-        var inner = jQuery('<div>', {
-          class: 'elementor-inner'
-        });
-        inner.append(this.$childViewContainer);
-        this.$el.prepend(inner);
-      } else {
-        this.$el.prepend(this.$childViewContainer);
-      }
-    }
-
     return this.$childViewContainer;
   },
   behaviors: function behaviors() {
@@ -27899,13 +27894,25 @@ var Preview = BaseSectionsContainerView.extend({
     }];
   },
   onRender: function onRender() {
-    if (!elementor.userCan('design')) {
-      return;
+    var $contentContainer;
+
+    if (elementor.config.legacyMode.elementWrappers) {
+      var $inner = jQuery('<div>', {
+        class: 'elementor-inner'
+      });
+      this.$el.html($inner);
+      $contentContainer = $inner;
+    } else {
+      $contentContainer = this.$el;
     }
 
-    var addNewSectionView = new _independent.default();
-    addNewSectionView.render();
-    this.$el.append(addNewSectionView.$el);
+    $contentContainer.html(this.$childViewContainer);
+
+    if (elementor.userCan('design')) {
+      var addNewSectionView = new _independent.default();
+      addNewSectionView.render();
+      $contentContainer.append(addNewSectionView.$el);
+    }
   }
 });
 module.exports = Preview;
