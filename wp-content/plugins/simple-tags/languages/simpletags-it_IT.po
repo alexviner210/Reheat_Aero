@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/simple-tags\n"
 "POT-Creation-Date: 2010-01-31 17:45+0000\n"
 "PO-Revision-Date: 2010-02-01 00:42+0100\n"
-"Last-Translator: WebFactory Ltd <amaury@wordpress-fr.net>\n"
+"Last-Translator: WebFactory Ltd <support@webfactoryltd.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -300,8 +300,8 @@ msgid "Simple Tags: Manage Terms"
 msgstr "Simple Tags: Gestisci i tag"
 
 #: inc/admin.php:472
-msgid "Visit the <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">plugin's homepage</a> for further details. If you find a bug, or have a fantastic idea for this plugin, <a href=\"https://wordpress.org/support/plugin/simple-tags/#new-topic-0\">ask me</a> !"
-msgstr "Visita la <a href=\"https://wordpress.org/plugins/simple-tags\">pagina del plugin</a> per maggiori dettagli. Se trovi un bug o hai un'idea fantastica per questo plugin <a href=\"https://wordpress.org/support/plugin/simple-tags/#new-topic-0\">scrivimi</a>!"
+msgid "Visit the <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">plugin's homepage</a> for further details. If you find a bug, or have a fantastic idea for this plugin, <a href=\"https://wordpress.org/support/plugin/simple-tags/#new-topic-0\">ask me</a> !"
+msgstr "Visita la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">pagina del plugin</a> per maggiori dettagli. Se trovi un bug o hai un'idea fantastica per questo plugin <a href=\"https://wordpress.org/support/plugin/simple-tags/#new-topic-0\">scrivimi</a>!"
 
 #: inc/admin.php:476
 msgid "Rename/Merge Terms"
@@ -1042,8 +1042,8 @@ msgstr "Formato dei collegamenti ai tag:"
 #: inc/array.options.php:129
 #: inc/array.options.php:147
 #: inc/array.options.php:186
-msgid "You can find markers and explanations <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">in the online documentation.</a>"
-msgstr "Poi trovare i marker e le istruzioni <a href=\"http://code.google.com/p/simple-tags/wiki/ThemeIntegration\">nella documentazione on-line</a>."
+msgid "You can find markers and explanations <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">in the online documentation.</a>"
+msgstr "Poi trovare i marker e le istruzioni <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">nella documentazione on-line</a>."
 
 #: inc/array.options.php:74
 msgid "Text to display if no tags found:"
@@ -1057,8 +1057,8 @@ msgid "<strong>Advanced usage</strong>:"
 msgstr "<strong>Uso avanzato</strong>:"
 
 #: inc/array.options.php:76
-msgid "You can use the same syntax as <code>st_the_tags()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentation</a> for more details."
-msgstr "Puoi usare la stessa sintassi della funzione <code>st_the_tags()</code> per personalizare la visualizzazione. Vai alla <a href=\"http://code.google.com/p/simple-tags/wiki/ThemeIntegration\">documentazione</a> per maggiori dettagli."
+msgid "You can use the same syntax as <code>st_the_tags()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentation</a> for more details."
+msgstr "Puoi usare la stessa sintassi della funzione <code>st_the_tags()</code> per personalizare la visualizzazione. Vai alla <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentazione</a> per maggiori dettagli."
 
 #: inc/array.options.php:79
 msgid "Automatically display related posts into feeds"
@@ -1122,8 +1122,8 @@ msgid "Enter the positioned title before the list, leave blank for no title:"
 msgstr "Inserisci il titolo da posizionare prima della lista, lascia vuoto per nessun titolo:"
 
 #: inc/array.options.php:106
-msgid "You can use the same syntax as <code>st_related_posts()</code>function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentation</a> for more details."
-msgstr "Puoi usare la stessa sintassi della funzione <code>st_related_posts()</code> per personalizzare la visualizzazione. Vai alla <a href=\"http://code.google.com/p/simple-tags/wiki/ThemeIntegration\">documentazione</a> per maggiori dettagli."
+msgid "You can use the same syntax as <code>st_related_posts()</code>function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentation</a> for more details."
+msgstr "Puoi usare la stessa sintassi della funzione <code>st_related_posts()</code> per personalizzare la visualizzazione. Vai alla <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentazione</a> per maggiori dettagli."
 
 #: inc/array.options.php:109
 msgid "Maximum number of related tags to display: (default: 5)"
@@ -1187,8 +1187,8 @@ msgid "Enter the text to show when there is no related tags:"
 msgstr "Inserire il testo da mostrare quando non ci sono tag correlati:"
 
 #: inc/array.options.php:135
-msgid "You can use the same syntax as <code>st_related_tags()</code>function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentation</a> for more details."
-msgstr "Puoi usare la stessa sintassi della funzione <code>st_related_tags()</code> per personalizzare la visualizzazione. Controlla la <a href=\"http://code.google.com/p/simple-tags/wiki/ThemeIntegration\">documentazione</a> per maggiori dettagli."
+msgid "You can use the same syntax as <code>st_related_tags()</code>function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentation</a> for more details."
+msgstr "Puoi usare la stessa sintassi della funzione <code>st_related_tags()</code> per personalizzare la visualizzazione. Controlla la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentazione</a> per maggiori dettagli."
 
 #: inc/array.options.php:137
 msgid "Remove related Tags"
@@ -1320,8 +1320,8 @@ msgid "The font size units option determines the units that the two font sizes u
 msgstr "Il tipo di unita di misura del carattere determina l'unità di misura che i due caratteri usano."
 
 #: inc/array.options.php:199
-msgid "You can use the same syntax as <code>st_tag_cloud()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentation</a> for more details."
-msgstr "Puoi usare la stessa sintassi della funzione <code>st_tag_cloud()</code> per personalizzare la visualizzazione. Controla nella <a href=\"http://code.google.com/p/simple-tags/wiki/ThemeIntegration\">documentazione</a> per maggiori dettagli."
+msgid "You can use the same syntax as <code>st_tag_cloud()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentation</a> for more details."
+msgstr "Puoi usare la stessa sintassi della funzione <code>st_tag_cloud()</code> per personalizzare la visualizzazione. Controla nella <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentazione</a> per maggiori dettagli."
 
 #: inc/base.php:122
 #: inc/client.php:459

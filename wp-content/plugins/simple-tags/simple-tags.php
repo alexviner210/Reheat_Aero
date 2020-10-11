@@ -3,7 +3,7 @@
 Plugin Name: Simple Tags
 Plugin URI: https://wordpress.org/plugins/simple-tags/
 Description: Extended Tag Manager. Terms suggestion, Mass Edit Terms, Auto link Terms, Ajax Autocompletion, Click Terms, Advanced manage terms, etc.
-Version: 2.6
+Version: 2.61
 Requires PHP: 5.6
 Author: WebFactory Ltd
 Author URI: https://www.webfactoryltd.com/
@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-define( 'STAGS_VERSION', '2.6' );
+define( 'STAGS_VERSION', '2.61' );
 define( 'STAGS_MIN_PHP_VERSION', '5.6' );
 define( 'STAGS_OPTIONS_NAME', 'simpletags' ); // Option name for save settings
 define( 'STAGS_OPTIONS_NAME_AUTO', 'simpletags-auto' ); // Option name for save settings auto terms
@@ -63,6 +63,9 @@ require STAGS_DIR . '/inc/class.client.php';
 require STAGS_DIR . '/inc/class.client.tagcloud.php';
 require STAGS_DIR . '/inc/class.rest.php';
 require STAGS_DIR . '/inc/class.widgets.php';
+
+require_once 'wp301/wp301.php';
+new wf_wp301(__FILE__, 'settings_page_st_options');
 
 // Activation, uninstall
 register_activation_hook( __FILE__, array( 'SimpleTags_Plugin', 'activation' ) );

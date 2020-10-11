@@ -23,9 +23,9 @@
 		}
 		?>
 	</h2>
-
-	<p><?php _e( 'Visit the <a href="https://wordpress.org/plugins/simple-tags">plugin\'s homepage</a> for further details. If you find a bug, or have a fantastic idea for this plugin, <a href="https://wordpress.org/support/plugin/simple-tags/#new-topic-0">ask me</a> !', 'simpletags' ); ?></p>
-
+<div class="simple-tags-review-box"><b>Simple Tags are kept free &amp; updated with reviews.</b> Please leave a review. It only takes a moment. Thank you!
+<br><a class="button button-primary" href="https://wordpress.org/support/plugin/simple-tags/reviews/#new-post" target="_blank">Leave a review 👍</a> <a href="#" class="simple-tags-dismiss-rating">I already rated the plugin</a>
+</div>
 	<form action="<?php echo self::$admin_url; ?>" method="post">
 		<?php echo self::print_options( $option_data ); ?>
 

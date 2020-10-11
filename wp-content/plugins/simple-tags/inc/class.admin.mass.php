@@ -103,7 +103,10 @@ class SimpleTags_Admin_Mass {
 				<input type="hidden" name="taxo" value="<?php echo esc_attr( SimpleTags_Admin::$taxonomy ); ?>"/>
 				<input type="hidden" name="cpt" value="<?php echo esc_attr( SimpleTags_Admin::$post_type ); ?>"/>
 
-				<h2><?php _e( 'Mass edit terms', 'simpletags' ); ?></h2>
+        <h2><?php _e( 'Mass edit terms', 'simpletags' ); ?></h2>
+        <div class="simple-tags-review-box"><b>Simple Tags are kept free &amp; updated with reviews.</b> Please leave a review. It only takes a moment. Thank you!
+<br><a class="button button-primary" href="https://wordpress.org/support/plugin/simple-tags/reviews/#new-post" target="_blank">Leave a review 👍</a> <a href="#" class="simple-tags-dismiss-rating">I already rated the plugin</a>
+</div><br>
 
 				<ul class="subsubsub">
 					<?php
@@ -273,7 +276,6 @@ class SimpleTags_Admin_Mass {
 
 				<?php endif; ?>
 
-			<p><?php _e( 'Visit the <a href="https://wordpress.org/plugins/simple-tags">plugin\'s homepage</a> for further details. If you find a bug, or have a fantastic idea for this plugin, <a href="https://wordpress.org/support/plugin/simple-tags/#new-topic-0">ask me</a> !', 'simpletags' ); ?></p>
 			<?php SimpleTags_Admin::printAdminFooter(); ?>
 		</div>
 		<?php

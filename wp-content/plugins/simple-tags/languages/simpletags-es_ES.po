@@ -202,8 +202,8 @@ msgstr "¡Opciones de autoetiquetado actualizadas!"
 #: /2.3/inc/simple-tags.admin.php:210 /2.3/inc/simple-tags.admin.php:523
 #: /2.3/inc/simple-tags.admin.php:629 /2.3/inc/simple-tags.admin.php:844
 #: /2.5/inc/simple-tags.admin.php:641 /2.7/inc/simple-tags.admin.php:688
-msgid "Visit the <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">plugin's homepage</a> for further details. If you find a bug, or have a fantastic idea for this plugin, <a href=\"https://wordpress.org/support/plugin/simple-tags/#new-topic-0\">ask me</a> !"
-msgstr "Visita la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">página del plugin</a> para más detalles. Si encuentras un fallo, o tienes una idea fantástica para esta extensión, ¡<a href=\"https://wordpress.org/support/plugin/simple-tags/#new-topic-0\">consúltame</a>!"
+msgid "Visit the <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">plugin's homepage</a> for further details. If you find a bug, or have a fantastic idea for this plugin, <a href=\"https://wordpress.org/support/plugin/simple-tags/#new-topic-0\">ask me</a> !"
+msgstr "Visita la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">página del plugin</a> para más detalles. Si encuentras un fallo, o tienes una idea fantástica para esta extensión, ¡<a href=\"https://wordpress.org/support/plugin/simple-tags/#new-topic-0\">consúltame</a>!"
 
 # C:\SVN\ST
 #: /2.3/inc/simple-tags.admin.php:214 /2.5/inc/simple-tags.admin.php:237
@@ -560,8 +560,8 @@ msgstr "Formato de enlace de etiqueta:"
 #: /2.7/inc/simple-tags.admin.php:448 /2.7/inc/simple-tags.admin.php:476
 #: /2.7/inc/simple-tags.admin.php:504 /2.7/inc/simple-tags.admin.php:522
 #: /2.7/inc/simple-tags.admin.php:555
-msgid "You can find markers and explanations <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">in the online documentation.</a>"
-msgstr "Puedes encontrar marcadores y explicaciones <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">en la documentación online.</a>"
+msgid "You can find markers and explanations <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">in the online documentation.</a>"
+msgstr "Puedes encontrar marcadores y explicaciones <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">en la documentación online.</a>"
 
 # C:\SVN\ST
 #: /2.3/inc/simple-tags.admin.php:343 /2.5/inc/simple-tags.admin.php:386
@@ -582,8 +582,8 @@ msgstr "<strong>Uso avanzado</strong>:"
 # C:\SVN\ST
 #: /2.3/inc/simple-tags.admin.php:345 /2.5/inc/simple-tags.admin.php:388
 #: /2.7/inc/simple-tags.admin.php:451
-msgid "You can use the same syntax as <code>st_the_tags()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentation</a> for more details."
-msgstr "Puedes usar la misma sintaxis que en la función <code>st_the_tags()</code> para personalizar la visualización. Consulta la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentación</a> para más detalles."
+msgid "You can use the same syntax as <code>st_the_tags()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentation</a> for more details."
+msgstr "Puedes usar la misma sintaxis que en la función <code>st_the_tags()</code> para personalizar la visualización. Consulta la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentación</a> para más detalles."
 
 # C:\SVN\ST
 #: /2.3/inc/simple-tags.admin.php:348 /2.5/inc/simple-tags.admin.php:391
@@ -686,8 +686,8 @@ msgstr "Introduce título previo a la lista, déjalo en blanco para ninguno:"
 # C:\SVN\ST
 #: /2.3/inc/simple-tags.admin.php:375 /2.5/inc/simple-tags.admin.php:418
 #: /2.7/inc/simple-tags.admin.php:481
-msgid "You can use the same syntax as <code>st_related_posts()</code>function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentation</a> for more details."
-msgstr "Puedes usar la misma sintaxis que en la función <code>st_related_posts()</code> para personalizar la visualización. Consulta la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentación</a> para más detalles."
+msgid "You can use the same syntax as <code>st_related_posts()</code>function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentation</a> for more details."
+msgstr "Puedes usar la misma sintaxis que en la función <code>st_related_posts()</code> para personalizar la visualización. Consulta la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentación</a> para más detalles."
 
 # C:\SVN\ST
 #: /2.3/inc/simple-tags.admin.php:378 /2.5/inc/simple-tags.admin.php:421
@@ -787,8 +787,8 @@ msgstr "Introduce el texto a mostrar cuando no hay etiquetas relacionadas:"
 # F:\SVN\ST
 #: /2.3/inc/simple-tags.admin.php:404 /2.5/inc/simple-tags.admin.php:447
 #: /2.7/inc/simple-tags.admin.php:510
-msgid "You can use the same syntax as <code>st_related_tags()</code>function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentation</a> for more details."
-msgstr "Puedes usar la misma sintaxis que en la función <code>st_related_tags()</code> para personalizar la visualización. Consulta la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentación</a> para más detalles."
+msgid "You can use the same syntax as <code>st_related_tags()</code>function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentation</a> for more details."
+msgstr "Puedes usar la misma sintaxis que en la función <code>st_related_tags()</code> para personalizar la visualización. Consulta la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentación</a> para más detalles."
 
 # C:\SVN\ST
 #: /2.3/inc/simple-tags.admin.php:406 /2.5/inc/simple-tags.admin.php:449
@@ -950,8 +950,8 @@ msgstr "La opción de la unidad del tamaño de fuente determina la unidad de tam
 # C:\SVN\ST
 #: /2.3/inc/simple-tags.admin.php:462 /2.5/inc/simple-tags.admin.php:505
 #: /2.7/inc/simple-tags.admin.php:568
-msgid "You can use the same syntax as <code>st_tag_cloud()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentation</a> for more details."
-msgstr "Puedes usar la misma sintaxis que en la función <code>st_tag_cloud()</code> para personalizar la visualización. Consulta la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentación</a> para más detalles."
+msgid "You can use the same syntax as <code>st_tag_cloud()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentation</a> for more details."
+msgstr "Puedes usar la misma sintaxis que en la función <code>st_tag_cloud()</code> para personalizar la visualización. Consulta la <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentación</a> para más detalles."
 
 # C:\SVN\ST
 #: /2.3/inc/simple-tags.admin.php:476 /2.5/inc/simple-tags.admin.php:519

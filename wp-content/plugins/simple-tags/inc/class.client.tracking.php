@@ -26,7 +26,7 @@ class SimpleTags_Client_Tracking {
 	 * @return bool
 	 */
 	private function tracking_allowed() {
-		return 1 === (int) SimpleTags_Plugin::get_option_value( 'use_tracking' );
+    return false;
 	}
 
 	/**

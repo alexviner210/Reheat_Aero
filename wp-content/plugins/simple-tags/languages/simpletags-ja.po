@@ -358,8 +358,8 @@ msgid "Tag link format:"
 msgstr "タグリンクのフォーマット:"
 
 #: inc/helper.options.admin.php:83
-msgid "You can find markers and explanations <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">in the online documentation.</a>"
-msgstr "マーカーや解説については <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">オンラインドキュメント</a>を参照してください"
+msgid "You can find markers and explanations <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">in the online documentation.</a>"
+msgstr "マーカーや解説については <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">オンラインドキュメント</a>を参照してください"
 
 #: inc/helper.options.admin.php:84
 msgid "Maximum number of tags to display: (default: 45)"
@@ -410,12 +410,12 @@ msgid "<strong>Advanced usage</strong>:"
 msgstr "<strong>高度な利用</strong>:"
 
 #: inc/helper.options.admin.php:96
-msgid "You can use the same syntax as <code>st_tag_cloud()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentation</a> for more details."
-msgstr "<code>st_tag_cloud()</code> 関数と同じシンタックスを使用して表示をカスタマイズできます。詳しくは <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">ドキュメンテーション</a> を参照してください。"
+msgid "You can use the same syntax as <code>st_tag_cloud()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentation</a> for more details."
+msgstr "<code>st_tag_cloud()</code> 関数と同じシンタックスを使用して表示をカスタマイズできます。詳しくは <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">ドキュメンテーション</a> を参照してください。"
 
 #: inc/helper.options.admin.php:96
-msgid "You can use the same syntax as <code>st_the_tags()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">documentation</a> for more details."
-msgstr "<code>st_the_tags()</code> 関数と同じシンタックスを使用して表示をカスタマイズできます。詳しくは <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki/Theme_integration\">ドキュメンテーション</a> を参照してください。"
+msgid "You can use the same syntax as <code>st_the_tags()</code> function to customize display. See <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">documentation</a> for more details."
+msgstr "<code>st_the_tags()</code> 関数と同じシンタックスを使用して表示をカスタマイズできます。詳しくは <a href=\"https://github.com/WebFactoryLtd/simple-tags/wiki\">ドキュメンテーション</a> を参照してください。"
 
 #: inc/helper.options.admin.php:99
 #: inc/helper.options.admin.php:110

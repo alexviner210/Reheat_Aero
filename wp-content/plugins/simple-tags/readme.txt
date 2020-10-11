@@ -1,9 +1,9 @@
-=== Simple Tags - Advanced Tags & Terms Manager ===
-Contributors: WebFactory, UnderConstructionPage, wpreset
-Tags: tag, tags, taxonomy, term, cpt, tagging, navigation
+=== Simple Tags - Tags Manager ===
+Contributors: WebFactory
+Tags: tag, tags, taxonomy, term, cpt, tagging, navigation, tag manager, tags manager, term manager, terms manager
 Requires at least: 3.3
 Tested up to: 5.5
-Stable tag: 2.6
+Stable tag: 2.61
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,7 +19,7 @@ Extended Tagging for WordPress : Terms suggestion, Mass Edit Terms, Auto link Te
 It was written with this philosophy : best performances, more secured and brings a lot of new functions
 
 * Administration
-	* Tags suggestion from Yahoo! Content Analysis, OpenCalais, Alchemy, Zemanta, Tag The Net, Tag4Site, dataTXT and local terms with AJAX request 
+	* Tags suggestion from Yahoo! Content Analysis, OpenCalais, Alchemy, Zemanta, Tag The Net, Tag4Site, dataTXT and local terms with AJAX request
 	* Compatible with TinyMCE, FCKeditor, WYMeditor and QuickTags
 	* tags management (rename, delete, merge, search and add tags, edit tags ID)
 	* **Edit mass tags (more than 50 posts at once)**
@@ -68,6 +68,11 @@ The Simple Tags can be installed in 3 easy steps:
 6. You also can suggest tags from lot's of service (Yahoo! Content Analysis, OpenCalais, Alchemy, Zemanta, Tag The Net, Tag4Site, dataTXT and local terms)
 
 == Changelog ==
+
+v2.61 - 2020-09-30
+* fixed issue with Maximum number of links for the same tag
+* added dismissible request to rate
+* added promo campaign for WP 301 Redirects
 
 v2.6 - 2020-09-10
 * fixes for WP v5.5
@@ -210,7 +215,7 @@ v2.6 - 2020-09-10
 	* Restore custom post tags feature : st_the_tags()
 	* Fix a bug with widget taxo option saving
 * Version 2.0-beta1 :
-	* This version is a back to fondamentals. Somes features are removed ! 
+	* This version is a back to fondamentals. Somes features are removed !
 	* This version need testing !
 	* Remove old marker <!--st_tag_cloud-->
 	* Remove related posts
@@ -476,7 +481,7 @@ v2.6 - 2020-09-10
 	* Fixes 2-3 minors bugs
 * Version 1.0
 	* Initial version
-	
+
 == Upgrade Notice ==
 
 Nothing to say...

@@ -109,6 +109,7 @@ class SimpleTags_Admin {
 	 * Show tracking dialog
 	 */
 	public static function admin_setup_notices() {
+    return;
 		// Make sure they have the permissions to do something
 		if ( ! current_user_can( 'admin_simple_tags' ) ) {
 			return;

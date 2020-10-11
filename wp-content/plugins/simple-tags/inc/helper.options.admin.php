@@ -315,7 +315,7 @@ return array(
 			__( 'Tag link format:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can find markers and explanations <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">in the online documentation.</a>', 'simpletags' )
+			__( 'You can find markers and explanations <a href="https://github.com/WebFactoryLtd/simple-tags/wiki">in the online documentation.</a>', 'simpletags' )
 		),
 		array(
 			'cloud_limit_qty',
@@ -363,7 +363,7 @@ return array(
 			__( '<strong>Advanced usage</strong>:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can use the same syntax as <code>st_tag_cloud()</code> public static function to customize display. See <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">documentation</a> for more details.', 'simpletags' )
+			__( 'You can use the same syntax as <code>st_tag_cloud()</code> public static function to customize display. See <a href="https://github.com/WebFactoryLtd/simple-tags/wiki">documentation</a> for more details.', 'simpletags' )
 		)
 	),
 	'tagspost'       => array(
@@ -398,7 +398,7 @@ return array(
 			__( 'Tag link format:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can find markers and explanations <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">in the online documentation.</a>', 'simpletags' )
+			__( 'You can find markers and explanations <a href="https://github.com/WebFactoryLtd/simple-tags/wiki">in the online documentation.</a>', 'simpletags' )
 		),
 		array( 'tt_notagstext', __( 'Text to display if no tags found:', 'simpletags' ), 'text', 'widefat' ),
 		array(
@@ -406,7 +406,7 @@ return array(
 			__( '<strong>Advanced usage</strong>:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can use the same syntax as <code>st_the_tags()</code> public static function to customize display. See <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">documentation</a> for more details.', 'simpletags' )
+			__( 'You can use the same syntax as <code>st_the_tags()</code> public static function to customize display. See <a href="https://github.com/WebFactoryLtd/simple-tags/wiki">documentation</a> for more details.', 'simpletags' )
 		)
 	),
 	'relatedposts'   => array(
@@ -453,7 +453,7 @@ return array(
 			__( 'Post link format:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can find markers and explanations <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">in the online documentation.</a>', 'simpletags' )
+			__( 'You can find markers and explanations <a href="https://github.com/WebFactoryLtd/simple-tags/wiki">in the online documentation.</a>', 'simpletags' )
 		),
 		array(
 			'rp_limit_qty',
@@ -478,7 +478,7 @@ return array(
 			__( '<strong>Advanced usage</strong>:', 'simpletags' ),
 			'text',
 			'widefat',
-			__( 'You can use the same syntax as <code>st_related_posts()</code>public static function to customize display. See <a href="https://wordpress.org/plugins/simple-tags/wiki/Theme-functions-Integration">documentation</a> for more details.', 'simpletags' )
+			__( 'You can use the same syntax as <code>st_related_posts()</code>public static function to customize display. See <a href="https://github.com/WebFactoryLtd/simple-tags/wiki">documentation</a> for more details.', 'simpletags' )
 		)
 	),
 	'metakeywords'   => array(
